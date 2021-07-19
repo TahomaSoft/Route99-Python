@@ -10,7 +10,7 @@ LineOut= textwrap.wrap(LineIn, width=70)
 
 
 for k in LineOut:
-    k=k + '"' + ' ' + '"'
+    k= '"' + k + '"' + ' ' 
     sys.stdout.write(k)
     #    print (k)
 
